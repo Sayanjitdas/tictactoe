@@ -17,13 +17,15 @@ game is over. If they choose to play again, the player who started second last g
 
 Step - 1
 --------
-`do {
-	
-	SelectPlayer();
-	PlayTheGame();
+`
+	 do {
 
-}
-while(WantToPlayAgain())
+		SelectPlayer();
+		PlayTheGame();
+
+	}
+	while(WantToPlayAgain())
+
 `
 
 Step - 2
