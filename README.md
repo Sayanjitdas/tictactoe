@@ -2,7 +2,7 @@
 This is a simple tictactoe game build with pure c++
 
 Tic Tac Toe
-------------
+---
 
 Write the game of Tic Tac Toe. It's a game with a 3 by 3 grid played by 2 players. 
 One player places O markers and the other player places X markers. Each player takes 
@@ -16,7 +16,7 @@ game is over. If they choose to play again, the player who started second last g
 ## Steps of approaching the problem and pseudocodes *this is just a brief idea..*
 
 Step - 1
---------
+
 `
 	 do {
 
@@ -24,12 +24,11 @@ Step - 1
 		PlayTheGame();
 
 	}
-	while(WantToPlayAgain())
+	while(WantToPlayAgain());
 
 `
 
 Step - 2
---------
 `
 PlayTheGame(){
 	boardgrid[BOARD_GRID_SIZE] = {'0','1','2','3','4','5','7','8','9'};
