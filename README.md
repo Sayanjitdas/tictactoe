@@ -13,21 +13,21 @@ game is called a "Cat Game". Your program should output the winner of the game o
 if there was no winner. The user should be prompted if they would like to play again when the 
 game is over. If they choose to play again, the player who started second last game should go first.
 
-## Steps of approaching the problem..
+## Steps of approaching the problem and pseudocodes **this is just a brief idea**..
 
 Step - 1
 --------
-
+`
 do {
 	
 	SelectPlayer();
 	PlayTheGame();
 
 }while(WantToPlayAgain())
-
+`
 Step - 2
 --------
-
+`
 PlayTheGame(){
 	boardgrid[BOARD_GRID_SIZE] = {'0','1','2','3','4','5','7','8','9'};
 	activePlayer; 
@@ -45,10 +45,10 @@ PlayTheGame(){
 	DisplayWinner();
 
 }
-
+`
 Step - 3
 --------
-
+`
 SelectPlayer(){
 	
 	if playerOne == 'X'
@@ -61,10 +61,10 @@ SelectPlayer(){
 		playerOne = 'X'
 		playerTwo = 'O'
 }
-
+`
 Step - 4
 --------
-
+`
 DrawTheBoard(){
 	
 	print out the board onscreen with valid positions and values
@@ -75,35 +75,38 @@ DrawTheBoard(){
 	 6 | 7 | 8
 
 }
-
+`
 Step - 5
 --------
+`
 GetPlayerInput(){
 	
 	will get the input of the active player in the mentioned grid number
 	return the grid number and player 
 }
-
+`
 
 Step - 6
 --------
-
+`
 UpdateBoard(){
 	update the grid 
 }
+`
 
 Step - 7
 --------
-
+`
 GameIsNotOver(){
 	
 	CheckCombinations()
 	return True while no combinations is satisfied else false
 
 }
-
+`
 Step - 8
 --------
+`
 	 0 | 1 | 2
 	---+---+---
 	 3 | 4 | 5
@@ -120,4 +123,4 @@ Step - 8
 	 6. 2 == 5 == 8
 	 7. 0 == 4 == 8
 	 8. 2 == 4 == 6
-
+`
