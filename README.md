@@ -13,18 +13,19 @@ game is called a "Cat Game". Your program should output the winner of the game o
 if there was no winner. The user should be prompted if they would like to play again when the 
 game is over. If they choose to play again, the player who started second last game should go first.
 
-## Steps of approaching the problem and pseudocodes **this is just a brief idea**..
+## Steps of approaching the problem and pseudocodes *this is just a brief idea..*
 
 Step - 1
 --------
-`
-do {
+`do {
 	
 	SelectPlayer();
 	PlayTheGame();
 
-}while(WantToPlayAgain())
+}
+while(WantToPlayAgain())
 `
+
 Step - 2
 --------
 `
